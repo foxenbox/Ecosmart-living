@@ -14,6 +14,11 @@ nav {
     color: white;
 }
 
+.logo {
+    width: 150px;
+    height: auto;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -45,9 +50,17 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.usp {
-    padding: 40px;
-    background: #f9f9f9;
+.checkout, .order-success {
+    padding: 50px;
+}
+
+button {
+    background: #2E8B57;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 footer {

@@ -11,12 +11,13 @@
 
     <!-- Navigatie -->
     <nav>
-        <h1>EcoSmart Living</h1>
+        <img src="logo.png" alt="EcoSmart Living Logo" class="logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="about.html">Over Ons</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">🛒 Winkelwagen</a></li>
         </ul>
     </nav>
 
@@ -27,14 +28,12 @@
         <a href="shop.html" class="cta-button">Shop Nu</a>
     </header>
 
-    <!-- USP's -->
-    <section class="usp">
-        <h2>Waarom EcoSmart Living?</h2>
-        <ul>
-            <li>✅ Gratis verzending op alle orders</li>
-            <li>✅ Eco-vriendelijke en slimme producten</li>
-            <li>✅ Bespaar tot 30% op je energiekosten</li>
-        </ul>
+    <!-- Winkelwagen -->
+    <section class="cart">
+        <h2>Winkelwagen</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Totaal: €<span id="cart-total">0.00</span></strong></p>
+        <button onclick="checkout()">Afrekenen</button>
     </section>
 
     <!-- Footer -->
